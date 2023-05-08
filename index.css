@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+* {
+  box-sizing: border-box !important;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  transition-duration: 200ms;
+  transition: 200ms ease-in-out;
+  /* border: 1px dashed red; */
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  /* background:red; */
+  user-select: none;
+  color: #fff;
+
+}
+h1{
+    text-align: center;
+}
+/* center the class called 'clock' to the center of the page, both vertically and horizontally */
+.H1-congrats{
+  margin-bottom:1rem;
+}
+.time, .days-total{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+.time-left{
+    font-size: 7rem;
+}
+.current-time, .current-date{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top:2rem;
+    font-weight: bold;
+}
+.current-time{
+    margin-top:4rem;
+}
+.current-date{
+    font-weight: normal;
+}
+.inshAllah{
+  margin-top:5rem;
+}
